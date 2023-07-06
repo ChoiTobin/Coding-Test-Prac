@@ -1,3 +1,8 @@
+<h1>
+문제:배열에서 값들을 쌍으로 묶어서 나온 값에 가장 작은 값들을 합친 값을 return한다
+해결법:배열을 정렬하고 다음 항상 홀수번째 값들이 최소값이기 때문에 가장 작은값을 이렇게 구했고 나머지는 합치면서 return하였다.
+</h1>
+
 <h2><a href="https://leetcode.com/problems/array-partition/">561. Array Partition</a></h2><h3>Easy</h3><hr><div><p>Given an integer array <code>nums</code> of <code>2n</code> integers, group these integers into <code>n</code> pairs <code>(a<sub>1</sub>, b<sub>1</sub>), (a<sub>2</sub>, b<sub>2</sub>), ..., (a<sub>n</sub>, b<sub>n</sub>)</code> such that the sum of <code>min(a<sub>i</sub>, b<sub>i</sub>)</code> for all <code>i</code> is <strong>maximized</strong>. Return<em> the maximized sum</em>.</p>
 
 <p>&nbsp;</p>
